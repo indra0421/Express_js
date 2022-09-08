@@ -20,7 +20,7 @@ app.get("/contact", (req, res) => {
     res.status(300).send("welcome to my Contact page");
 })
 app.get("/temp", (req, res) => {
-    res.send({
+    res.json({
         id: 1,
         name: "indranil"
     });
