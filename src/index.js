@@ -7,8 +7,7 @@ const hbs = require("hbs");  //1. require the template engine
 const templatePath = path.join(__dirname,"../templates/views");
 const partialsPath = path.join(__dirname,"../templates/partials");  // 
 
-//to set the view engine to hbs  --- same write 'view engine'
-//if we use pug -- then 'view engine' -'pug'
+
 
 app.set('view engine', "hbs");
 app.set('views', templatePath);
