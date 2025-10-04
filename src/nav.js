@@ -1,8 +1,3 @@
-// www.myapp.com -- welcome to my home page
-// /about -- welcome to my about page
-// /contact -- wlcome to my Contact page
-// /temp -- welcome to temp page
-
 const express = require("express");
 const app = express();
 
@@ -29,3 +24,8 @@ app.get("/temp", (req, res) => {
 app.listen(3000, () => {
     console.log("listening to the port 3000");
 })
+
+// www.myapp.com -- welcome to my home page
+// /about -- welcome to my about page
+// /contact -- wlcome to my Contact page
+// /temp -- welcome to temp page
