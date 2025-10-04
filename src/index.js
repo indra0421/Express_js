@@ -1,9 +1,9 @@
 const express = require("express");
 const path = require("path");
 const app = express();
-const hbs = require("hbs");  //1. require the template engine
+const hbs = require("hbs");  //1.require the template engine
 
-//built in middleware
+// built in middleware
 const templatePath = path.join(__dirname,"../templates/views");
 const partialsPath = path.join(__dirname,"../templates/partials");  // 
 
