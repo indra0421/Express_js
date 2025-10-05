@@ -5,8 +5,6 @@ app.get("/", (req, res) => {
     res.write("<h1>welcome to my home page</h1>");
     res.write("<h1>welcome to my home page</h1>");
     res.send();   //write it must to avoid loading condition -- if not used page will load
-
-    // console.log(req);
 })
 app.get("/about", (req, res) => {
     res.send("welcome to my About page");
